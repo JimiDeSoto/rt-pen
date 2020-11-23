@@ -16,8 +16,9 @@
 
 ## 1.2 Tools - intel
       - theharvester - The tool gathers emails, names, subdomains, IPs and URLs
-        ```bash
+```bash
            docker pull whiteoaksecurity/docker-theharvester 
            sudo docker run -ti whiteoaksecurity/docker-theharvester
-        ```
+```
+
 
