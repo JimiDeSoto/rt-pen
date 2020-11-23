@@ -10,6 +10,7 @@
       psql -t -h crt.sh -p 5432 -U guest certwatch
 ```
       - https://www.entrust.com/resources/certificate-solutions/tools/certificate-transparency-search
+      - https://www.ssllabs.com/ssltest/analyze.html - SSL Certificate Testing
       - https://www.virustotal.com/ - +subdomeny
       - https://www.shodan.io/
       - https://www.zoomeye.org/
