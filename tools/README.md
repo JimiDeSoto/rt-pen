@@ -42,7 +42,9 @@
       
       
       - theharvester - The tool gathers emails, names, subdomains, IPs and URLs
-
+# 3. Post-exploitation
+## 3.1. Tools
+      - CrackMapExec - utomate assessing the security of large Active Directory networks https://github.com/byt3bl33d3r/CrackMapExec https://mpgn.gitbook.io/crackmapexec/
 # X. Addons
 ## X.1 Dictionary
       - SecLists - multiple types of lists https://github.com/danielmiessler/SecLists
