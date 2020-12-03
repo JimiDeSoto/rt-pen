@@ -48,3 +48,5 @@
 # X. Addons
 ## X.1 Dictionary
       - SecLists - multiple types of lists https://github.com/danielmiessler/SecLists
+## x.2 Raporty
+      - writehat - generator raportów pentest https://github.com/blacklanternsecurity/writehat
