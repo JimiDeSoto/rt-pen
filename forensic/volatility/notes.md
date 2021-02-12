@@ -30,3 +30,7 @@ cat pslist.txt psscan.txt | awk '{print $2"\t"$3}' | sort | uniq -c | grep -v " 
 psscan --output=dot --output-file=graph.dot  
 clamscan  
 vol3 - yarascan.YaraScan --yara-file ./malware_rules.yar  
+
+ip rozwiązanie  
+abeebus git  
+python3 ../Abeebus/abeebus.py out  
