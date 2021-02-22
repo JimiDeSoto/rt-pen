@@ -13,8 +13,8 @@ Known tools/packers are easy to identify
 ○ https://github.com/Yara-Rules/rules/blob/master/Packers/packer.yar  
 ○ https://www.aldeid.com/wiki/PEiD  
 ● RDG packer detector  
-○ http://www.rdgsoft.net (Mute the browser !!!) 
-● DIE (DetectItEasy)  
+○ http://www.rdgsoft.net (Mute the browser !!!)  
+● DIE (DetectItEasy)   
 ○ https://github.com/horsicq/Detect-It-Easy | http://ntinfo.biz/  
 ● Exeinfo  
 ○ http://exeinfo.atwebpages.com/  
